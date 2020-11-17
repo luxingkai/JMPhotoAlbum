@@ -24,7 +24,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
 //    JMAlbumViewController *vc = [JMAlbumViewController new];
-    AssetRetrievalViewController *vc = [AssetRetrievalViewController new];
+    JMAlbumViewController *vc = [JMAlbumViewController new];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];

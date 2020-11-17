@@ -8,6 +8,7 @@
 
 #import "AssetRetrievalViewController.h"
 #import <Photos/Photos.h>
+#import <Foundation/Foundation.h>
 
 @interface AssetRetrievalViewController ()
 
@@ -98,7 +99,7 @@
     if ([asset canPerformEditOperation:PHAssetEditOperationDelete]) {
         PHContentEditingInputRequestOptions *editingInputRequestOptions = [PHContentEditingInputRequestOptions new];
         [asset requestContentEditingInputWithOptions:editingInputRequestOptions completionHandler:^(PHContentEditingInput * _Nullable contentEditingInput, NSDictionary * _Nonnull info) {
-            
+             
             NSLog(@"mediaType %ld",(long)contentEditingInput.mediaType);
             NSLog(@"mediaSubtypes %lu",(unsigned long)contentEditingInput.mediaSubtypes);
             NSLog(@"creationDate %@",contentEditingInput.creationDate);

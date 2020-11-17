@@ -20,8 +20,8 @@
 		113AC2E62490DC6B00872971 /* PHAsset+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 113AC2E52490DC6B00872971 /* PHAsset+Extension.m */; };
 		113AC2E92490DE5900872971 /* SharePhotoLibraryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 113AC2E82490DE5900872971 /* SharePhotoLibraryController.m */; };
 		113AC2EC2490ED0C00872971 /* AssetRetrievalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 113AC2EB2490ED0C00872971 /* AssetRetrievalViewController.m */; };
+		1152C1DA25300D4800BCF65F /* PhotoKit framework.png in Resources */ = {isa = PBXBuildFile; fileRef = 1152C1D925300D4800BCF65F /* PhotoKit framework.png */; };
 		118D65242423376B00ED86A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 118D65232423376B00ED86A0 /* AppDelegate.m */; };
-		118D652D2423376B00ED86A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 118D652B2423376B00ED86A0 /* Main.storyboard */; };
 		118D652F2423376B00ED86A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 118D652E2423376B00ED86A0 /* Assets.xcassets */; };
 		118D65322423376B00ED86A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 118D65302423376B00ED86A0 /* LaunchScreen.storyboard */; };
 		118D65352423376B00ED86A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 118D65342423376B00ED86A0 /* main.m */; };
@@ -76,10 +76,10 @@
 		113AC2E82490DE5900872971 /* SharePhotoLibraryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharePhotoLibraryController.m; sourceTree = "<group>"; };
 		113AC2EA2490ED0C00872971 /* AssetRetrievalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssetRetrievalViewController.h; sourceTree = "<group>"; };
 		113AC2EB2490ED0C00872971 /* AssetRetrievalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssetRetrievalViewController.m; sourceTree = "<group>"; };
+		1152C1D925300D4800BCF65F /* PhotoKit framework.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PhotoKit framework.png"; sourceTree = "<group>"; };
 		118D651F2423376B00ED86A0 /* JMPhotoAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMPhotoAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		118D65222423376B00ED86A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		118D65232423376B00ED86A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		118D652C2423376B00ED86A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		118D652E2423376B00ED86A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		118D65312423376B00ED86A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		118D65332423376B00ED86A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -163,10 +163,10 @@
 				112A8CCE2491E37500F3F37E /* AssetResourceManagementViewController.m */,
 				112A8CD02491E39F00F3F37E /* PhotoEditingExtensionsController.h */,
 				112A8CD12491E39F00F3F37E /* PhotoEditingExtensionsController.m */,
+				1152C1D925300D4800BCF65F /* PhotoKit framework.png */,
 				112A8CD32491E3CD00F3F37E /* a27985f6-1ee8-4116-98c7-9199674be2df.png */,
-				118D652B2423376B00ED86A0 /* Main.storyboard */,
-				118D652E2423376B00ED86A0 /* Assets.xcassets */,
 				118D65302423376B00ED86A0 /* LaunchScreen.storyboard */,
+				118D652E2423376B00ED86A0 /* Assets.xcassets */,
 				118D65332423376B00ED86A0 /* Info.plist */,
 				118D65342423376B00ED86A0 /* main.m */,
 			);
@@ -324,7 +324,7 @@
 				118D65322423376B00ED86A0 /* LaunchScreen.storyboard in Resources */,
 				112A8CD42491E3CD00F3F37E /* a27985f6-1ee8-4116-98c7-9199674be2df.png in Resources */,
 				118D652F2423376B00ED86A0 /* Assets.xcassets in Resources */,
-				118D652D2423376B00ED86A0 /* Main.storyboard in Resources */,
+				1152C1DA25300D4800BCF65F /* PhotoKit framework.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,14 +402,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		118D652B2423376B00ED86A0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				118D652C2423376B00ED86A0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		118D65302423376B00ED86A0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
